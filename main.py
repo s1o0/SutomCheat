@@ -1,6 +1,4 @@
-from logging.config import listen
-
-
+#Get only words with a specific length
 def tailleList(liste,n):
     ret = []
     for mot in liste:
@@ -8,6 +6,7 @@ def tailleList(liste,n):
             ret.append(mot)
     return ret
 
+#Get only words where you know the index+letter 
 def motWith(liste, index, letter):
     ret = []
     index -=1
@@ -16,6 +15,7 @@ def motWith(liste, index, letter):
             ret.append(mot)
     return ret
 
+#Get words where you know there is not a specific letter
 def motWithOut(liste, letter):
     ret = []
     for mot in liste:
@@ -23,6 +23,7 @@ def motWithOut(liste, letter):
             ret.append(mot)
     return ret
 
+#Get words where you know there is a letter in the word but you don't know the index
 def motWithTwo(liste, letter):
     ret = []
     for mot in liste:
