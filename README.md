@@ -1,7 +1,3 @@
 # SutomCheat
-An algorithm for Sutom (French words only at the moment)
+An algorithm for Sutom (French words only)
 
-# ToDo's list :
-- Remove accent
-- Extend to every language
-- User Interface
